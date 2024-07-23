@@ -72,12 +72,10 @@
         @apply text-dark border border-dark hover:bg-dark hover:text-white;
     }
 
-    /* Navbar */
-    .navbar {
-        @apply flex justify-between;
-    }
-    .navbar .navbar-nav {
-        @apply flex;
-    }
+    
+}
 
+/* Navbar */
+.show {
+    left: 0 !important;
 }

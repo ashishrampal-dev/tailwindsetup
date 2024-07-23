@@ -14,34 +14,98 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-    <nav class="navbar px-10">
-        <a href="#" class="navbar-brand">
-            Spread My Career
+    <!-- navbar big screen -->
+    <nav class="hidden lg:flex justify-between items-center px-10">
+        <a href="#" class="text-3xl font-bold">
+            SpreadMy<span class="text-primary font-normal">Career</span>
         </a>
-        <button class="navbar-toggler">
-            <i class="fas fa-bars"></i>
-        </button>
-        <ul class="navbar-nav gap-8">
+        <ul class="flex">
             <li>
-                <a href="#">Home</a>
+                <a href="#" class="block px-8 py-6 font-semibold hover:text-primary">
+                    Home
+                </a>
             </li>
             <li>
-                <a href="#">About Us</a>
+                <a href="#" class="block px-8 py-6 font-semibold hover:text-primary">
+                    About Us
+                </a>
             </li>
             <li>
-                <a href="#">Our Services</a>
+                <a href="#" class="block px-8 py-6 font-semibold hover:text-primary">
+                    Our Services
+                </a>
             </li>
             <li>
-                <a href="#">Projects</a>
+                <a href="#" class="block px-8 py-6 font-semibold hover:text-primary">
+                    Projects
+                </a>
             </li>
             <li>
-                <a href="#">Blogging</a>
+                <a href="#" class="block px-8 py-6 font-semibold hover:text-primary">
+                    Blogging
+                </a>
             </li>
             <li>
-                <a href="#">Contact Us</a>
+                <a href="#" class="block px-8 py-6 font-semibold hover:text-primary">
+                    Contact Us
+                </a>
             </li>
         </ul>
     </nav>
+
+    <!-- navbar header mobile -->
+    <div class="flex lg:hidden justify-between items-center px-6 bg-white">
+        <a href="#" class="text-3xl font-bold block py-6">
+            SpreadMy<span class="text-primary font-normal">Career</span>
+        </a>
+        <button class="open-mobile-nav" data-target=".mobile-nav">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- navbar mobile -->
+    <nav class="mobile-nav block lg:hidden fixed top-0 -left-full w-full sm:w-1/2 h-full bg-dark text-white duration-300">
+        <button class="close-mobile-nav absolute right-4 top-4" data-target=".mobile-nav">
+            <i class="fas fa-times"></i>
+        </button>
+        <a href="#" class="text-3xl font-bold block py-6">
+            SpreadMy<span class="text-primary font-normal">Career</span>
+        </a>
+        <ul>
+            <li>
+                <a href="#" class="block py-2 border-b border-gray-700">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#" class="block py-2 border-b border-gray-700">
+                    About Us
+                </a>
+            </li>
+            <li>
+                <a href="#" class="block py-2 border-b border-gray-700">
+                    Our Services
+                </a>
+            </li>
+            <li>
+                <a href="#" class="block py-2 border-b border-gray-700">
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a href="#" class="block py-2 border-b border-gray-700">
+                    Blogging
+                </a>
+            </li>
+            <li>
+                <a href="#" class="block py-2 border-b border-gray-700">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
     <div class="container mx-auto bg-primary">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ea eius veritatis saepe suscipit rerum earum eligendi. Illum odit eaque ipsam repellat voluptas ea dicta omnis deleniti placeat qui. Sit!
     </div>
