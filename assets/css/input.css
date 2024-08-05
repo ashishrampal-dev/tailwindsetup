@@ -72,10 +72,22 @@
         @apply text-dark border border-dark hover:bg-dark hover:text-white;
     }
 
-    
-}
+    /* Title */
+    .title {
+        @apply text-3xl font-bold mb-3;
+    }
+    .title-sm {
+        @apply text-xl font-bold mb-3;
+    }
+    .title-lg {
+        @apply text-4xl font-bold mb-3;
+    }
+    .title-xl {
+        @apply text-5xl font-bold mb-3;
+    }
+    .title-2xl {
+        @apply text-6xl font-bold mb-3;
+    }
 
-/* Navbar */
-.show {
-    left: 0 !important;
+    
 }
